@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="4/KvH4wD50NWAekArKDu5g==" exportKeySalt="d3939d77-82ef-4fe8-88db-e3ceaa72f5da" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="L15K+fc32HQr0bCT0koH2w==" exportKeySalt="6560a547-4686-4e8f-b922-7ed8380b5a6a" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpProject">
 		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
@@ -11,7 +11,7 @@
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[21]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2024-01-07 20:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2024-01-07 21:11:34.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ProjectCode" type="java.lang.String"><![CDATA[SBI]]></Field>
 	<Field name="ProjectName" type="java.lang.String"><![CDATA[SBI]]></Field>
@@ -65,6 +65,14 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[846f6510-1504-4717-9fce-d3d65e7a1531]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[3926628a0c5f587206dcd67f37902e1eff8ccd21]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_v_master.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[v_tiger_vendor1]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6e3a100a-8365-4dd1-8453-70f6e1080035]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[67949f868156c9099323b33b6f673628740c92a6]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_v_tiger_vendor1.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
